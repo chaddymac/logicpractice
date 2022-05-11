@@ -1,12 +1,11 @@
 
 
-num = 0
-while num < 5:
-    print ("hi there")
-    num = num + 1
+class Bus:
+    wheels = 4
+    
+    def drive(self):
+        print("driving")
 
-
-
-number = ['',1,'jujiuj',3,True]
-for num in number:
-    print(num)
+bus = Bus()
+print(bus.wheels)
+bus.drive()
